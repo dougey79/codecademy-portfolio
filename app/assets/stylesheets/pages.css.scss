@@ -1,0 +1,29 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ul {
+  display: inline-block;
+  margin: 20px;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.main {
+  
+	background: url('https://image.freepik.com/free-photo/dusk-colorful-dramatic-yellow-sun_1203-5704.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.main button {
+  background: white;  
+  margin: 30px;
+}
+
+.main button:hover {
+  background: black;
+  color: white;
+}
